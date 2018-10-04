@@ -1,0 +1,22 @@
+<html>
+<head title="Mi pagina"/>
+  <body>
+    <hi>Mi Pagina</h1><br></br>
+    <form type="POST">
+      <div>
+        <input type="text" value="Verde"/><br></br>
+      </div>
+      <input type="text" id="txtNombre" name="nombre" placeholder="Ingresa tu Nombre" /><br></br>
+      <input type="email" name="email" placeholder="Ingresa tu Email" /><br></br>
+      <input type="number" name="edad" min="18" max="65" placeholder="Ingresa tu edad"      /><br></br>
+      <input type="dni" pattern="\d{8}\w{1}" placeholder="8 digitos 1 letra" /><br></br>
+      <input type="date" name="fecha"/><br></br>
+      <input type="color" name="color"/><br></br>
+      <button onclick="guardarDatosUsuario()">Guardar</button><br></br>
+<button onclick="recuperarDatosUsuario()">Recuperar</button>
+      <input type="submit" value="Enviar"/><br></br>
+    </form>
+    
+  </body>
+  
+</html>
